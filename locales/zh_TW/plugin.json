@@ -1,0 +1,129 @@
+{
+  "debug": {
+    "arguments": "調用參數",
+    "function_call": "函數調用",
+    "off": "關閉調試",
+    "on": "查看插件調用信息",
+    "response": "返回結果"
+  },
+  "dev": {
+    "confirmDeleteDevPlugin": "即將刪除該本地插件，刪除後將無法找回，是否刪除該插件？",
+    "deleteSuccess": "插件刪除成功",
+    "manifest": {
+      "identifier": {
+        "desc": "插件的唯一標識",
+        "label": "標識符"
+      },
+      "mode": {
+        "local": "可視化配置",
+        "local-tooltip": "暫時不支持可視化配置",
+        "url": "在線鏈接"
+      },
+      "name": {
+        "desc": "插件標題",
+        "label": "標題",
+        "placeholder": "搜索引擎"
+      }
+    },
+    "meta": {
+      "author": {
+        "desc": "插件的作者",
+        "label": "作者"
+      },
+      "avatar": {
+        "desc": "插件的圖標，可以使用 Emoji，也可以使用 URL",
+        "label": "圖標"
+      },
+      "description": {
+        "desc": "插件描述",
+        "label": "描述",
+        "placeholder": "查詢搜索引擎獲取信息"
+      },
+      "formFieldRequired": "該字段為必填項",
+      "homepage": {
+        "desc": "插件的首頁",
+        "label": "首頁"
+      },
+      "identifier": {
+        "desc": "插件的唯一標識，將從 manifest 中自動識別",
+        "errorDuplicate": "標識符和已有插件重複，請修改標識符",
+        "label": "標識符",
+        "pattenErrorMessage": "只能輸入英文字符、數字 、- 和_ 這兩個符號"
+      },
+      "manifest": {
+        "desc": "LobeChat 將會通過該鏈接安裝插件",
+        "label": "插件描述文件 (Manifest) URL",
+        "preview": "預覽 Manifest",
+        "refresh": "刷新"
+      },
+      "title": {
+        "desc": "插件標題",
+        "label": "標題",
+        "placeholder": "搜索引擎"
+      }
+    },
+    "metaConfig": "插件元信息配置",
+    "modalDesc": "添加自定義插件後，可用於插件開發驗證，也可直接在會話中使用。插件開發請參考<1>開發文檔↗</>",
+    "preview": {
+      "card": "預覽插件展示效果",
+      "desc": "預覽插件描述",
+      "title": "插件名稱預覽"
+    },
+    "save": "安裝插件",
+    "saveSuccess": "插件設置保存成功",
+    "tabs": {
+      "manifest": "功能描述清單 (Manifest)",
+      "meta": "插件元信息"
+    },
+    "title": "添加自定義插件",
+    "update": "更新",
+    "updateSuccess": "插件設置更新成功"
+  },
+  "error": {
+    "fetchError": "請求該 manifest 鏈接失敗，請確保鏈接的有效性，並檢查鏈接是否允許跨域訪問",
+    "installError": "插件 {{name}} 安裝失敗",
+    "manifestInvalid": " manifest 不符合規範，校驗結果: \n\n {{error}}",
+    "noManifest": "描述文件不存在",
+    "reinstallError": "插件 {{name}} 刷新失敗",
+    "urlError": "該鏈接沒有返回 JSON 格式的內容, 請確保是有效的鏈接"
+  },
+  "list": {
+    "item": {
+      "deprecated.title": "已刪除",
+      "local.config": "配置",
+      "local.title": "自定義"
+    }
+  },
+  "loading": {
+    "content": "調用插件中...",
+    "plugin": "插件運行中..."
+  },
+  "pluginList": "插件列表",
+  "plugins": {
+    "loading": "插件檢測中...",
+    "unknown": "未知插件"
+  },
+  "setting": "插件設定",
+  "settings": {
+    "indexUrl": {
+      "title": "市場索引",
+      "tooltip": "暫不支持線上編輯，請透過部署時環境變數進行設定"
+    },
+    "modalDesc": "配置插件市場的地址後，可以使用自定義的插件市場",
+    "title": "設定插件市場"
+  },
+  "store": {
+    "empty": "暫無已安裝插件",
+    "install": "安裝",
+    "installAllPlugins": "安裝全部",
+    "networkError": "獲取插件商店失敗，請檢測網路連接後重試",
+    "releasedAt": "發布於 {{createdAt}}",
+    "tabs": {
+      "all": "全部",
+      "installed": "已安裝"
+    },
+    "title": "插件商店",
+    "uninstall": "卸載",
+    "placeholder": "搜尋插件名稱介紹或關鍵字..."
+  }
+}

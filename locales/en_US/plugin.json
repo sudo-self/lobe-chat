@@ -1,0 +1,129 @@
+{
+  "debug": {
+    "arguments": "Arguments",
+    "function_call": "Function Call",
+    "off": "Turn Off Debug",
+    "on": "View Plugin Call Information",
+    "response": "Response"
+  },
+  "dev": {
+    "confirmDeleteDevPlugin": "Are you sure you want to delete this local plugin? Once deleted, it cannot be recovered.",
+    "deleteSuccess": "Plugin deleted successfully",
+    "manifest": {
+      "identifier": {
+        "desc": "Unique identifier for the plugin",
+        "label": "Identifier"
+      },
+      "mode": {
+        "local": "Local Configuration",
+        "local-tooltip": "Local configuration is temporarily not supported",
+        "url": "Online Link"
+      },
+      "name": {
+        "desc": "Plugin title",
+        "label": "Title",
+        "placeholder": "Search Engine"
+      }
+    },
+    "meta": {
+      "author": {
+        "desc": "Author of the plugin",
+        "label": "Author"
+      },
+      "avatar": {
+        "desc": "Plugin icon, can use Emoji or URL",
+        "label": "Icon"
+      },
+      "description": {
+        "desc": "Plugin description",
+        "label": "Description",
+        "placeholder": "Query search engine for information"
+      },
+      "formFieldRequired": "This field is required",
+      "homepage": {
+        "desc": "Plugin homepage",
+        "label": "Homepage"
+      },
+      "identifier": {
+        "desc": "Unique identifier for the plugin, will be automatically recognized from the manifest",
+        "errorDuplicate": "Identifier is already used by another plugin, please modify the identifier",
+        "label": "Identifier",
+        "pattenErrorMessage": "Only English characters, numbers, - and _ are allowed"
+      },
+      "manifest": {
+        "desc": "LobeChat will install the plugin through this link",
+        "label": "Plugin Description File (Manifest) URL",
+        "preview": "Preview Manifest",
+        "refresh": "Refresh"
+      },
+      "title": {
+        "desc": "Plugin title",
+        "label": "Title",
+        "placeholder": "Search Engine"
+      }
+    },
+    "metaConfig": "Plugin metadata configuration",
+    "modalDesc": "After adding a custom plugin, it can be used for plugin development validation or directly in the session. For plugin development, please refer to the <1>development documentation↗</>.",
+    "preview": {
+      "card": "Preview Plugin Display",
+      "desc": "Preview Plugin Description",
+      "title": "Plugin Name Preview"
+    },
+    "save": "Install Plugin",
+    "saveSuccess": "Plugin settings saved successfully",
+    "tabs": {
+      "manifest": "Manifest Description",
+      "meta": "Plugin Metadata"
+    },
+    "title": "Add Custom Plugin",
+    "update": "Update",
+    "updateSuccess": "Plugin settings updated successfully"
+  },
+  "error": {
+    "fetchError": "Failed to fetch the manifest link. Please ensure the link is valid and allows cross-origin access.",
+    "installError": "Failed to install plugin {{name}}",
+    "manifestInvalid": "The manifest does not comply with the specification. Validation result: \n\n {{error}}",
+    "noManifest": "Manifest file does not exist",
+    "reinstallError": "Failed to refresh plugin {{name}}",
+    "urlError": "The link did not return content in JSON format. Please ensure it is a valid link"
+  },
+  "list": {
+    "item": {
+      "deprecated.title": "Deprecated",
+      "local.config": "Configuration",
+      "local.title": "Custom"
+    }
+  },
+  "loading": {
+    "content": "Calling plugin...",
+    "plugin": "Plugin running..."
+  },
+  "pluginList": "Plugin List",
+  "plugins": {
+    "loading": "Checking plugins...",
+    "unknown": "Unknown plugin"
+  },
+  "setting": "Plugin Settings",
+  "settings": {
+    "indexUrl": {
+      "title": "Marketplace Index",
+      "tooltip": "Online editing is not supported for now. Please set it through environment variables during deployment."
+    },
+    "modalDesc": "After configuring the address of the plugin marketplace, you can use a custom plugin marketplace.",
+    "title": "Set Plugin Marketplace"
+  },
+  "store": {
+    "empty": "No installed plugins yet",
+    "install": "Install",
+    "installAllPlugins": "Install All",
+    "networkError": "Failed to fetch the plugin store. Please check your network connection and try again.",
+    "releasedAt": "Released at {{createdAt}}",
+    "tabs": {
+      "all": "All",
+      "installed": "Installed"
+    },
+    "title": "Plugin Store",
+    "uninstall": "Uninstall",
+    "placeholder": "Search for plugin name, description, or keywords..."
+  }
+}
